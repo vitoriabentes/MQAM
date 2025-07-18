@@ -1,2 +1,4 @@
 # MQAM
-Estudo estatístico sobre como variáveis musicais quantitativas e qualitativas afetam a popularidade no Spotify utilizando métodos quantitativos para análise multivariada. 
+Este estudo busca entender como características qualitativas e quantitativas se relacionam com sua popularidade no Spotify. Utilizando dados disponibilizados por meio da API do Spotify for Developers, analisamos 1.300 músicas de diversos gêneros para identificar padrões estatisticamente significativos.
+Esse conjunto de dados foi normalizado utilizando regressão linear múltipla para facilitar a obtenção de resultados.
+O conjunto de dados possui características das faixas músicais, sendo elas: tonalidade, modo, compasso, gênero, formato de publicação (tipo do álbum), data de lançamento, explícito (se a faixa possui letras explícitas ou não), nível popularidade, acusticidade, dançabilidade, duração em ms, energia (representa uma medida perceptual de intensidade e atividade), instrumentalidade, vivacidade (detecta a presença de uma plateia na gravação), intensidade sonora, discursividade (detecta a presença de palavras faladas em uma faixa) e valência.
