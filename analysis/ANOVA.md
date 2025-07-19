@@ -105,5 +105,5 @@ for (var in variaveis) {
 
 ```
 ## Exemplo de Boxplots Gerados
-![Boxplot Explícito](boxplots/popularidade-explicito.png)
-![Boxplot Acusticidade](boxplots/popularidade-acusticidade.png)
+![Boxplot Explícito](results/boxplots/popularidade-explicito.png)
+![Boxplot Acusticidade](results/boxplots/popularidade-acusticidade.png)
