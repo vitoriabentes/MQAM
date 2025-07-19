@@ -1,7 +1,6 @@
 # Teste de Levene para Homogeneidade de Variâncias
 
 ## O que é o Teste de Levene?
-
 O Teste de Levene é um teste estatístico que verifica se **variâncias são iguais** (homocedasticidade) entre diferentes grupos. É uma etapa crítica antes de realizar uma ANOVA, pois uma das suposições fundamentais da ANOVA é que os grupos comparados tenham variâncias similares.
 
 ## Código Completo
@@ -61,3 +60,6 @@ for(i in 1:length(listadfs)){
 dfResposta
 write.csv(dfResposta, "resultados.csv")
 ```
+
+## Resultado
+![Resultado Gerado](results/resultados-teste-de-levene.csv)
