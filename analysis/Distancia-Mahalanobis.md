@@ -28,3 +28,16 @@ boxplot(mahal_dist, main = "Outliers - Distância de Mahalanobis")
 
 ## Outliers apresentados
 ![Boxplot Outliers](results/boxplots/outliers-distancia-mahalanobis.png)
+
+## Remoção de uma parcela dos outliers
+Foi removido os dados mais distantes da distribuição para obter resultados melhores de curtose e assimetria do teste de mardia (Mardia Skewness e Mardia Kurtosis).
+
+## Código Completo
+ ```r
+outliers <- which(mahal_dist > quantile(mahal_dist, 0.975))
+dataset_filtrado <- dataset_filtrado[-outliers, ]
+nrow(dataset_filtrado)
+```
+## Boxplot após a remoção de uma parcela de outliers
+![Boxplot Outliers](results/boxplots/outliers-pos-remocao.png)
+
