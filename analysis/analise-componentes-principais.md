@@ -1,6 +1,6 @@
 # Análise de Componentes Principais
 
-## O que é o Teste de Levene?
+## O que é o Análise de Componentes Principais?
 A Análise de Componentes Principais (PCA) é uma técnica estatística multivariada usada para reduzir a dimensionalidade de um conjunto de dados, transformando um conjunto de variáveis possivelmente correlacionadas em um novo conjunto de variáveis não correlacionadas chamadas componentes principais. O objetivo é identificar as direções de maior variância nos dados e projetá-los nesses novos eixos, capturando a maior parte da informação original com um número menor de variáveis. 
 
 ## Código Completo
@@ -32,7 +32,7 @@ theme_minimal() +
 plot.title = element_text(size = 16, hjust = 0.5))
 ```
 
-## Resultado
+## Resultados
 ![Scree plot](results/graphs/scree-plot-pca.png)
 ![Bioplot Detalhado](results/graphs/bioplot.png)
 ![Resultado do PCA](results/resultado-pca.csv)
